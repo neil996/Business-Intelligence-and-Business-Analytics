@@ -50,4 +50,11 @@ As the scope of E-commerce is increasing day by day across different regions, we
  
  ## Story Line for our Payments Segregation Dashboard
  
+ ### Credit card as a payment type
  
+Credit card is the most common type of payment method prevalent across the entire globe, where the consumer even if don’t have sufficient money in their accounts can make the payments. Therefore on selecting the credit card as payment type in highlighter, Tableau is able to highlight the key parts in the entire dashboard.
+Below are the core modules and insights shown by our interactive dashboard.
+
+1. Credit card accounts for approx... 90 percent of Payment segmentation, showing that many distinct payments are made through credit cards.
+2. Approximately 78 % consumers opted credit card as the mode of payment, this gives us an interesting insight which can be used by our sellers to promote their products.
+3. In 2016 credit card payments accounted merely 0.25 %, but increased in 2017 by 30 %, owing up to 34 % and in 2018 accounted for 45 %.
