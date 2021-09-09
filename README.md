@@ -41,3 +41,13 @@ We have collected the data from olist websites which has seven different entitie
 * Load: In the load part we will load the Cleaned data in SQL Server databases hosted on azure. This is the cleaned data where all the unnecessary information has been discarded and then creating the repositories in Azure SQL Server for the analysis and Visualization of data. Below figure shows the Loading of the resulting cleaned structured data in our Azure SQL Server for analysis and Visualizations in later stages.
 
  ![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/transformation.PNG)
+ 
+# Tableau Powered Dashboards
+
+As the scope of E-commerce is increasing day by day across different regions, we as Olist try to help our consumers which in this case are our sellers to help increase their business growth so that more and more sellers from different regions can be part of Olist eco-system which provides end to end demand and forecast handling in dealing with the customers. We have connected our Tableau directly with the database hosted on Azure SQL Server. The below figure shows Tableau direct connection with SQL Server, with database selected as BIBA_PROJECT and tables designated below the same.
+
+ ![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/tableau_sql.PNG)
+ 
+ ## Story Line for our Payments Segregation Dashboard
+ 
+ 
