@@ -57,4 +57,31 @@ Below are the core modules and insights shown by our interactive dashboard.
 
 1. Credit card accounts for approx... 90 percent of Payment segmentation, showing that many distinct payments are made through credit cards.
 2. Approximately 78 % consumers opted credit card as the mode of payment, this gives us an interesting insight which can be used by our sellers to promote their products.
-3. In 2016 credit card payments accounted merely 0.25 %, but increased in 2017 by 30 %, owing up to 34 % and in 2018 accounted for 45 %.
+3. In 2016 credit card payments accounted merely 0.25 %, but increased in 2017 by 30%, owing up to 34 % and in 2018 accounted for 45%.
+
+![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/paymenttype.PNG)
+
+### Opting Boleto as a payment type
+
+Boleto is a type of payment system in Brazil which is regulated by FEBRABAN, which is short for Brazilian Federation of Banks. Boleto’s can be used across different ATM machines, Outlets, Online Transactions and superstores till the expiration date.
+Our dashboard below highlights some of the important aspects mentioned below:
+
+1. Boleto as payment type accounts for approximately 20 percent as preferred payment type, second most after credit card usage.
+2. Around 43.69 % distinct payments came through boleto payment type, again second most after credit card.
+3. Payment type by year shows increasing trend ion usage of boleto as payment type, with stats as 0.06 % boleto usage in 2016, followed by approx... 10% in 2017 and finally 10.31% in 2018.
+
+![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/boleto.PNG)
+
+### Opting Debit Card as a payment type
+
+Debit card is the least opted payment method opted by the consumers while buying products through Olist. The below observations describes the insights retrieved from the dashboards.
+1. Marginally 2% of consumers opted for Debit card as their payment method as can be concluded from the dashboard.
+2. While in 2016, debit card did not accounted for any transactions through Online payments via Olist , the figure marginally increased in the following year coming to 1.11%.
+
+![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/debit.PNG)
+
+# Customers Insights
+
+The next Dashboard Gives information regarding Customer Insights.The First Bar Graph represents no. of customers by years like we can see in year 2016 we have less customers but there was a huge surge in the year 2017 which got increased from to 44,000 and then in year 2018 we again see huge margin increment in the no of customers of about 15000 customers.So already we can see lot of people start using E commerce websites for there buisness.We have also plotted the Demographic map which shows state wise Contribution of Customers and this Map tell us that Sao Paulo has highest no of customers in the year 2017 with count of 17.52 K customers, which finally got increased to 23.74 k customers in the year of 2018.As the Dashbiard is interactive we can see no of delivred product is also changing yearly.Also we can see delivered item also got increased which was natural as the no of cutomers got increased. We have also plotted Regression line in witn adjusted R Square 87 percent and the p value of 0.27 which is less then 0.5 means we are nearly correct in our Analysis.
+
+![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/insights.PNG)
