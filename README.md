@@ -33,8 +33,11 @@ In this phase we discuss how the proposed solution will be implemented on our Cu
 We have collected the data from olist websites which has seven different entities or tables, and they were not correlated so it was becoming very difficult for Olist employees to fetch some information and give suggestions. Also, they have some unwanted data which can be cleaned so here we apply ETL methodology in which we clean the data and stored in a separate database.
 
 * Extract: In this phase we extract the data from seven different tables in the form of csv files. We used read.csv command for that. Also during extraction, we have used file encoding "UTF-8-BOM" which is helpful if columns names have some special characters in between.
+
 ![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/extract.PNG)
 * Transformation: In transformation we use filtering and grouping the data which we have extracted from above process. We have made first new data frame in R called cleaned Products which has the data from details, product id and product category. Then we use full join to join tables like “cleaned Products” and “cleaned_categorynames” by “product_category_name” and stored it in “Real category” data frame. We have used dplyr library containing filter, select and group by functions for the same. Below figure shows the implementation.
+
  ![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/load.PNG)
 * Load: In the load part we will load the Cleaned data in SQL Server databases hosted on azure. This is the cleaned data where all the unnecessary information has been discarded and then creating the repositories in Azure SQL Server for the analysis and Visualization of data. Below figure shows the Loading of the resulting cleaned structured data in our Azure SQL Server for analysis and Visualizations in later stages.
+
  ![image](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/transformation.PNG)
